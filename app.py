@@ -15,7 +15,7 @@ model = load_model('recommendation_model.h5')
 restaurant_data = pd.read_csv('restaurant.csv')
 
 # Load business data
-business_data = pd.read_csv('/Users/khushpatel/Desktop/Recommendation /Data Preprocessing/modified_business.csv')
+business_data = pd.read_csv('modified_business.csv')
 
 # Function for making predictions
 def predict_recommendations_for_new_user(new_user_data):
